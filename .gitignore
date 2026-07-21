@@ -8,6 +8,11 @@
 
 # Local audit screenshots, scripts and logs
 /.audit/
+/design-qa.md
+
+# Local source references used during design work
+/helpers/
+/Moon_Glow_Website_Design_Brief.pdf
 
 # Environment variables and local secrets
 .env
