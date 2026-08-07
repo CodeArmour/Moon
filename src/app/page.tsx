@@ -1,23 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
 import { HeroRibbon } from "@/components/HeroRibbon";
-import {
-  ArrowRight,
-  Users,
-  Briefcase,
-  Compass,
-  Heart,
-  Mosque,
-  Check,
-  ShieldCheck,
-  Headset,
-  GlobeHemisphereWest,
-  LockKey,
-  WhatsappLogo,
-  IdentificationCard,
-  Ticket,
-  MapPinLine,
-} from "@phosphor-icons/react/dist/ssr";
+import { ArrowRight } from "@phosphor-icons/react/dist/ssr/ArrowRight";
+import { Users } from "@phosphor-icons/react/dist/ssr/Users";
+import { Briefcase } from "@phosphor-icons/react/dist/ssr/Briefcase";
+import { Compass } from "@phosphor-icons/react/dist/ssr/Compass";
+import { Heart } from "@phosphor-icons/react/dist/ssr/Heart";
+import { Mosque } from "@phosphor-icons/react/dist/ssr/Mosque";
+import { Check } from "@phosphor-icons/react/dist/ssr/Check";
+import { ShieldCheck } from "@phosphor-icons/react/dist/ssr/ShieldCheck";
+import { Headset } from "@phosphor-icons/react/dist/ssr/Headset";
+import { GlobeHemisphereWest } from "@phosphor-icons/react/dist/ssr/GlobeHemisphereWest";
+import { LockKey } from "@phosphor-icons/react/dist/ssr/LockKey";
+import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr/WhatsappLogo";
+import { IdentificationCard } from "@phosphor-icons/react/dist/ssr/IdentificationCard";
+import { Ticket } from "@phosphor-icons/react/dist/ssr/Ticket";
+import { MapPinLine } from "@phosphor-icons/react/dist/ssr/MapPinLine";
 import { contact } from "@/data/site";
 const focuses = [
   [Compass, "Leisure", "Escapes, celebrations and private holidays."],

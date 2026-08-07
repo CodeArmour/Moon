@@ -11,8 +11,8 @@ export const contact = {
   phoneHref: "tel:+18339054882",
   email: "info@moonglow-travel.com",
   advisorEmail: "Ashraf.Abdelhafiz@fora.travel",
-  whatsappNumber: "1 209 400 5744",
-  whatsapp: "https://wa.me/12094005744",
+  whatsappNumber: "1 310 906 7800",
+  whatsapp: "https://wa.me/13109067800",
   location: "Worldwide travel assistance",
 };
 export const services = [

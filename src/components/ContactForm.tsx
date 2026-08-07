@@ -1,7 +1,8 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import { ArrowRight, CheckCircle } from "@phosphor-icons/react";
+import { ArrowRight } from "@phosphor-icons/react/dist/csr/ArrowRight";
+import { CheckCircle } from "@phosphor-icons/react/dist/csr/CheckCircle";
 
 const fieldClass =
   "mt-2 min-h-12 w-full border border-white/20 bg-white px-4 text-sm text-[#041b36] outline-none transition focus:border-[#d6a32d] focus:ring-2 focus:ring-[#d6a32d]/25";

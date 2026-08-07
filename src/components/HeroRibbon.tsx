@@ -2,7 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { ArrowRight, WhatsappLogo } from "@phosphor-icons/react";
+import { ArrowRight } from "@phosphor-icons/react/dist/csr/ArrowRight";
+import { WhatsappLogo } from "@phosphor-icons/react/dist/csr/WhatsappLogo";
 import { contact } from "@/data/site";
 const slides = [
   {

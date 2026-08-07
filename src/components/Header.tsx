@@ -1,13 +1,11 @@
 "use client";
 import Link from "next/link";
-import {
-  List,
-  X,
-  WhatsappLogo,
-  Phone,
-  EnvelopeSimple,
-  ArrowUpRight,
-} from "@phosphor-icons/react";
+import { List } from "@phosphor-icons/react/dist/csr/List";
+import { X } from "@phosphor-icons/react/dist/csr/X";
+import { WhatsappLogo } from "@phosphor-icons/react/dist/csr/WhatsappLogo";
+import { Phone } from "@phosphor-icons/react/dist/csr/Phone";
+import { EnvelopeSimple } from "@phosphor-icons/react/dist/csr/EnvelopeSimple";
+import { ArrowUpRight } from "@phosphor-icons/react/dist/csr/ArrowUpRight";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { Logo } from "./Logo";

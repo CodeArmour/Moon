@@ -1,15 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { PageHero } from "@/components/PageHero";
-import {
-  Eye,
-  ChatsCircle,
-  LockKey,
-  GlobeHemisphereWest,
-  ArrowRight,
-  CheckCircle,
-  EnvelopeSimple,
-} from "@phosphor-icons/react/dist/ssr";
+import { Eye } from "@phosphor-icons/react/dist/ssr/Eye";
+import { ChatsCircle } from "@phosphor-icons/react/dist/ssr/ChatsCircle";
+import { LockKey } from "@phosphor-icons/react/dist/ssr/LockKey";
+import { GlobeHemisphereWest } from "@phosphor-icons/react/dist/ssr/GlobeHemisphereWest";
+import { ArrowRight } from "@phosphor-icons/react/dist/ssr/ArrowRight";
+import { CheckCircle } from "@phosphor-icons/react/dist/ssr/CheckCircle";
+import { EnvelopeSimple } from "@phosphor-icons/react/dist/ssr/EnvelopeSimple";
 import { contact } from "@/data/site";
 import { VerifiedProof } from "@/components/VerifiedProof";
 
