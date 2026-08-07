@@ -1,23 +1,26 @@
+import Image from "next/image";
 import Link from "next/link";
-import { MoonStars } from "@phosphor-icons/react/dist/ssr";
+
 export function Logo({ dark = false }: { dark?: boolean }) {
   return (
     <Link
       href="/"
-      className="flex items-center gap-3"
+      className={`relative flex h-[68px] w-[118px] shrink-0 items-center justify-center overflow-hidden sm:w-[132px] ${
+        dark
+          ? ""
+          : "border border-white/10 bg-[#fbfaf7] shadow-[0_12px_32px_rgba(0,0,0,.16)]"
+      }`}
       aria-label="Moon Glow home"
     >
-      <MoonStars size={38} weight="duotone" className="text-[#d6a32d]" />
-      <span>
-        <b
-          className={`block text-[15px] tracking-[.13em] ${dark ? "text-[#041b36]" : "text-white"}`}
-        >
-          MOON GLOW
-        </b>
-        <span className="block text-[8px] font-bold tracking-[.28em] text-[#b88618]">
-          TRAVEL AGENCY
-        </span>
-      </span>
+      <Image
+        src="/flightlogo.png"
+        alt="Moon Glow Travel Agent"
+        width={1536}
+        height={1024}
+        priority
+        sizes="(min-width: 640px) 132px, 118px"
+        className="h-auto w-[176px] max-w-none sm:w-[196px]"
+      />
     </Link>
   );
 }

@@ -1,18 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import { PageHero } from "@/components/PageHero";
-import {
-  IdentificationCard,
-  AirplaneTilt,
-  Bed,
-  MapTrifold,
-  Mosque,
-  Heart,
-  ArrowRight,
-  Car,
-  ShieldCheck,
-  Translate,
-} from "@phosphor-icons/react/dist/ssr";
+import { IdentificationCard } from "@phosphor-icons/react/dist/ssr/IdentificationCard";
+import { AirplaneTilt } from "@phosphor-icons/react/dist/ssr/AirplaneTilt";
+import { Bed } from "@phosphor-icons/react/dist/ssr/Bed";
+import { MapTrifold } from "@phosphor-icons/react/dist/ssr/MapTrifold";
+import { Mosque } from "@phosphor-icons/react/dist/ssr/Mosque";
+import { Heart } from "@phosphor-icons/react/dist/ssr/Heart";
+import { ArrowRight } from "@phosphor-icons/react/dist/ssr/ArrowRight";
+import { Car } from "@phosphor-icons/react/dist/ssr/Car";
+import { ShieldCheck } from "@phosphor-icons/react/dist/ssr/ShieldCheck";
+import { Translate } from "@phosphor-icons/react/dist/ssr/Translate";
 
 const chapters = [
   {

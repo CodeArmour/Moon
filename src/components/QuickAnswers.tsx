@@ -1,12 +1,10 @@
 "use client";
 
 import { useEffect, useId, useState } from "react";
-import {
-  ArrowRight,
-  CaretDown,
-  ChatCircleDots,
-  X,
-} from "@phosphor-icons/react";
+import { ArrowRight } from "@phosphor-icons/react/dist/csr/ArrowRight";
+import { CaretDown } from "@phosphor-icons/react/dist/csr/CaretDown";
+import { ChatCircleDots } from "@phosphor-icons/react/dist/csr/ChatCircleDots";
+import { X } from "@phosphor-icons/react/dist/csr/X";
 import { contact } from "@/data/site";
 
 const questions = [

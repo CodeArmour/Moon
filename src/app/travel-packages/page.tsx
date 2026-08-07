@@ -1,14 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { PageHero } from "@/components/PageHero";
-import {
-  AirplaneTilt,
-  Bed,
-  Car,
-  ShieldCheck,
-  ArrowRight,
-  Ticket,
-} from "@phosphor-icons/react/dist/ssr";
+import { AirplaneTilt } from "@phosphor-icons/react/dist/ssr/AirplaneTilt";
+import { Bed } from "@phosphor-icons/react/dist/ssr/Bed";
+import { Car } from "@phosphor-icons/react/dist/ssr/Car";
+import { ShieldCheck } from "@phosphor-icons/react/dist/ssr/ShieldCheck";
+import { ArrowRight } from "@phosphor-icons/react/dist/ssr/ArrowRight";
+import { Ticket } from "@phosphor-icons/react/dist/ssr/Ticket";
 
 const journeys = [
   {

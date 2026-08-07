@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Moon Glow — Client Website Review</title>
+  <style>
+    :root { --navy:#041b36; --gold:#d6a32d; --paper:#f7f3ec; --ink:#13263d; --muted:#617080; --line:#d9d2c6; }
+    * { box-sizing:border-box; }
+    @page { size:A4; margin:14mm 14mm 16mm; }
+    body { margin:0; color:var(--ink); font:10.2pt/1.55 Arial, sans-serif; background:white; }
+    .cover { min-height:268mm; padding:20mm 15mm; color:white; background:var(--navy); display:flex; flex-direction:column; justify-content:space-between; page-break-after:always; }
+    .brand { color:var(--gold); font-size:10pt; font-weight:700; letter-spacing:.2em; text-transform:uppercase; }
+    .cover h1 { margin:12mm 0 6mm; max-width:150mm; font-size:38pt; line-height:.98; letter-spacing:-.05em; }
+    .cover .intro { max-width:130mm; color:#c5d0dc; font-size:12pt; }
+    .meta { display:grid; grid-template-columns:1fr 1fr; gap:7mm; border-top:1px solid #ffffff30; padding-top:9mm; }
+    .meta span { display:block; margin-bottom:2mm; color:var(--gold); font-size:7.5pt; font-weight:700; letter-spacing:.15em; text-transform:uppercase; }
+    .meta div { min-height:12mm; border-bottom:1px solid #ffffff55; }
+    .instructions { margin-bottom:10mm; padding:6mm; border-left:3px solid var(--gold); background:var(--paper); color:var(--ink); }
+    .section { break-before:page; }
+    .section:first-of-type { break-before:auto; }
+    .section-head { margin-bottom:7mm; padding-bottom:5mm; border-bottom:2px solid var(--navy); display:flex; align-items:flex-end; justify-content:space-between; gap:8mm; }
+    .section-no { color:var(--gold); font-size:9pt; font-weight:700; letter-spacing:.15em; }
+    h2 { margin:1mm 0 0; font-size:23pt; line-height:1.05; letter-spacing:-.035em; color:var(--navy); }
+    h3 { margin:7mm 0 3mm; color:var(--navy); font-size:12pt; }
+    .hint { max-width:65mm; color:var(--muted); font-size:8.5pt; text-align:right; }
+    .checklist { list-style:none; padding:0; margin:0; display:grid; grid-template-columns:1fr 1fr; gap:2.8mm 7mm; }
+    .checklist.one { grid-template-columns:1fr; }
+    .checklist li { position:relative; min-height:8mm; padding:2mm 2mm 2mm 9mm; border-bottom:1px solid var(--line); break-inside:avoid; }
+    .checklist li::before { content:""; position:absolute; left:0; top:2.7mm; width:4mm; height:4mm; border:1.2px solid var(--gold); }
+    .write { margin-top:5mm; padding:4mm; min-height:27mm; border:1px solid var(--line); background:linear-gradient(to bottom, transparent 8mm, #d9d2c680 8.2mm, transparent 8.4mm); background-size:100% 8.5mm; }
+    .write.tall { min-height:48mm; }
+    .label { margin-top:5mm; color:var(--gold); font-size:8pt; font-weight:700; letter-spacing:.13em; text-transform:uppercase; }
+    .priority { display:grid; grid-template-columns:12mm 1fr; margin-top:3mm; border-bottom:1px solid var(--line); min-height:11mm; align-items:center; }
+    .priority b { color:var(--gold); font-size:15pt; }
+    .approval { display:grid; grid-template-columns:1fr 1fr; gap:8mm; margin-top:8mm; }
+    .signature { min-height:18mm; border-bottom:1px solid var(--navy); }
+    .small { color:var(--muted); font-size:8pt; }
+    footer { position:fixed; left:14mm; right:14mm; bottom:5mm; display:flex; justify-content:space-between; color:#7a8793; font-size:7pt; }
+    @media print { .cover { margin:-14mm -14mm -16mm; padding:34mm 29mm 30mm; min-height:297mm; } }
+  </style>
+</head>
+<body>
+  <section class="cover">
+    <div>
+      <div class="brand">Moon Glow Travel Agency</div>
+      <h1>Website review & discovery checklist.</h1>
+      <p class="intro">A structured review to confirm the brand, services, content, customer journey and launch requirements for the Moon Glow website.</p>
+    </div>
+    <div class="meta">
+      <div><span>Client / reviewer</span></div>
+      <div><span>Review date</span></div>
+      <div><span>Project owner</span></div>
+      <div><span>Target launch date</span></div>
+    </div>
+  </section>
+
+  <div class="instructions"><strong>How to use this document:</strong> review the current website together, tick every confirmed item, write corrections in the note areas and identify the five highest-priority changes before development continues.</div>
+
+  <section class="section">
+    <div class="section-head"><div><div class="section-no">01 / DIRECTION</div><h2>Overall impression</h2></div><div class="hint">Confirm the feeling the website should create.</div></div>
+    <ul class="checklist one">
+      <li>Does the website feel professional, trustworthy and premium enough?</li><li>Which page or section do you like most?</li><li>Which page or section do you like least?</li><li>Is anything confusing, unnecessary or missing?</li><li>Should the style feel more luxurious, corporate, friendly or energetic?</li><li>Are there competitor or reference websites we should study?</li>
+    </ul><div class="label">Comments and references</div><div class="write tall"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><div class="section-no">02 / BRAND</div><h2>Brand identity</h2></div><div class="hint">Approve the visual and verbal identity.</div></div>
+    <ul class="checklist">
+      <li>Current logo is final and approved</li><li>Navy, gold and ivory colors are approved</li><li>Modern typography is approved</li><li>Official SVG or high-resolution logo is available</li><li>Official company name is confirmed</li><li>Official slogan or tagline is confirmed</li><li>Arabic company name is required</li><li>Formal brand guidelines are available</li><li>There are colors or styles that must not be used</li><li>The current photographic direction is approved</li>
+    </ul><div class="label">Approved company name and tagline</div><div class="write"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><div class="section-no">03 / AUDIENCE</div><h2>Customers & positioning</h2></div><div class="hint">Decide who the website must persuade first.</div></div>
+    <ul class="checklist one">
+      <li>Who is the primary customer?</li><li>Which countries do most customers live in?</li><li>Are customers mainly individuals, families, businesses, pilgrims or groups?</li><li>Is Moon Glow positioned as luxury, affordable or a balance of both?</li><li>What is the most important action a visitor should take?</li><li>What concerns usually prevent customers from booking?</li>
+    </ul><div class="label">Primary audience and desired action</div><div class="write"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><div class="section-no">04 / SERVICES</div><h2>Services to promote</h2></div><div class="hint">Tick only services Moon Glow genuinely provides.</div></div>
+    <ul class="checklist">
+      <li>Visa guidance</li><li>Egypt visa facilitation</li><li>Egypt entry security-clearance assistance</li><li>Flight booking</li><li>Hotel booking</li><li>Holiday packages</li><li>Airport transfers</li><li>Travel insurance guidance</li><li>Hajj services</li><li>Umrah services</li><li>Medical travel</li><li>Arabic–English translation</li><li>Business travel</li><li>Family travel</li><li>Group travel</li><li>Other services listed below</li>
+    </ul>
+    <h3>For every approved service, confirm:</h3>
+    <ul class="checklist"><li>What is included?</li><li>What is excluded?</li><li>Which countries are supported?</li><li>Is a dedicated page needed?</li><li>Which documents are required?</li><li>What is the usual timeline?</li><li>Should pricing be displayed?</li><li>What disclaimer is required?</li></ul>
+    <div class="label">Other services and corrections</div><div class="write"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><div class="section-no">05 / EGYPT</div><h2>Entry & security assistance</h2></div><div class="hint">Accuracy is essential for this high-trust service.</div></div>
+    <ul class="checklist one">
+      <li>Is “Egypt entry security clearance” the correct approved wording?</li><li>Which nationalities can Moon Glow assist?</li><li>What documents are normally required?</li><li>What is the expected processing time?</li><li>Are there age, passport or residency restrictions?</li><li>What can Moon Glow promise, and what must never be guaranteed?</li><li>Should customers begin through WhatsApp, email or the website form?</li><li>Is the current government-approval disclaimer correct?</li>
+    </ul><div class="label">Approved explanation</div><div class="write tall"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><div class="section-no">06 / AIRLINES</div><h2>Airlines & ticket offers</h2></div><div class="hint">Confirm wording and publication rights.</div></div>
+    <ul class="checklist one">
+      <li>Does Moon Glow officially work with Badr Airlines?</li><li>Does Moon Glow officially work with Tarco Airlines?</li><li>Should they be described as partners, ticket options or another term?</li><li>Is there written permission to display their names and logos?</li><li>Which routes are normally promoted?</li><li>Should promotional prices appear online?</li><li>How frequently do offers change, and who updates them?</li><li>Are there other airlines that should be included?</li>
+    </ul><div class="label">Approved relationship wording</div><div class="write"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><div class="section-no">07 / DESTINATIONS</div><h2>Journeys & destinations</h2></div><div class="hint">Confirm priorities and real offerings.</div></div>
+    <ul class="checklist"><li>Egypt</li><li>Saudi Arabia</li><li>Qatar</li><li>Dubai / UAE</li><li>Other destinations</li><li>Priority order is approved</li></ul>
+    <h3>For each destination, confirm:</h3>
+    <ul class="checklist"><li>Available services</li><li>Existing packages</li><li>Featured cities or attractions</li><li>Typical duration</li><li>What is included</li><li>Whether prices appear</li><li>Available real photography</li><li>Preferred inquiry action</li></ul>
+    <div class="label">Other destinations and package ideas</div><div class="write"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><div class="section-no">08 / COMPANY</div><h2>About Moon Glow</h2></div><div class="hint">Replace generic claims with verifiable facts.</div></div>
+    <ul class="checklist one">
+      <li>What year was Moon Glow established?</li><li>Where is the business registered, and what is the official address?</li><li>Who founded or manages the agency?</li><li>What experience and specialties should be mentioned?</li><li>What makes Moon Glow different from competitors?</li><li>Which licenses, memberships or accreditations may be displayed?</li><li>Should Ashraf Abdelhafiz appear by name, and what is the approved title?</li><li>Is the Fora Travel relationship relevant and approved for display?</li>
+    </ul><div class="label">Approved company story</div><div class="write tall"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><div class="section-no">09 / PROOF</div><h2>Photography & trust</h2></div><div class="hint">Only publish assets and claims with permission.</div></div>
+    <ul class="checklist">
+      <li>Current editorial images are approved</li><li>Images to replace are identified</li><li>Real office photographs are available</li><li>Real team portraits are available</li><li>Customer or journey photography is available</li><li>Publication permission is confirmed</li><li>Genuine testimonials are available</li><li>Customer names may be displayed</li><li>Public review links are available</li><li>Credentials or trust badges are approved</li><li>Booking statistics can be verified</li><li>Response-time claims can be verified</li>
+    </ul><div class="label">Required assets and approved proof</div><div class="write tall"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><div class="section-no">10 / CONTACT</div><h2>Contact & inquiry flow</h2></div><div class="hint">Confirm how leads reach the team.</div></div>
+    <ul class="checklist">
+      <li>Phone: (833) 905-4882</li><li>WhatsApp: 1 209 400 5744</li><li>Email: info@moonglow-travel.com</li><li>Advisor: Ashraf.Abdelhafiz@fora.travel</li><li>Business hours are provided</li><li>Physical address is provided</li><li>Social-media links are provided</li><li>Emergency contact is provided</li>
+    </ul>
+    <h3>Inquiry form</h3>
+    <ul class="checklist"><li>Receiving email is confirmed</li><li>Required fields are approved</li><li>Nationality is required</li><li>Traveler count is required</li><li>File upload is needed</li><li>Sensitive-file rules are approved</li><li>Confirmation message is approved</li><li>Expected response time is approved</li><li>CRM connection is required</li><li>Spam protection is required</li></ul>
+    <div class="label">Corrections and delivery requirements</div><div class="write"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><div class="section-no">11 / EXPERIENCE</div><h2>FAQ, language & mobile</h2></div><div class="hint">Review everyday customer usability.</div></div>
+    <h3>Quick Answers</h3><ul class="checklist"><li>Keep on every page</li><li>Current five questions are correct</li><li>Answers are factually approved</li><li>Remain a predefined FAQ</li><li>Direct to WhatsApp</li><li>Direct to inquiry form</li></ul>
+    <h3>Language</h3><ul class="checklist"><li>English only</li><li>Arabic only</li><li>English and Arabic</li><li>Full right-to-left layout required</li><li>Arabic translator is confirmed</li><li>Default language is confirmed</li></ul>
+    <h3>Mobile</h3><ul class="checklist"><li>Navigation is clear</li><li>Fixed WhatsApp button stays</li><li>Fixed Call button stays</li><li>Quick Answers icon stays</li><li>Text is large enough</li><li>Image crops are approved</li></ul>
+    <div class="label">Requested FAQ and mobile changes</div><div class="write"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><div class="section-no">12 / OPERATIONS</div><h2>Legal, payments & ownership</h2></div><div class="hint">Confirm what is needed before launch.</div></div>
+    <h3>Legal and privacy</h3><ul class="checklist"><li>Privacy page approved</li><li>Service Terms approved</li><li>Lawyer review required</li><li>Cookie notice required</li><li>Refund policy required</li><li>Cancellation policy required</li><li>Data-retention period confirmed</li><li>Third-party data sharing confirmed</li></ul>
+    <h3>Payments and booking</h3><ul class="checklist"><li>Online payment required</li><li>Payment methods confirmed</li><li>Prices displayed</li><li>Request-quote only</li><li>Deposit required</li><li>Currency confirmed</li><li>Automatic invoices required</li><li>Payment provider confirmed</li></ul>
+    <h3>Technical ownership</h3><ul class="checklist"><li>Domain owner confirmed</li><li>Hosting owner confirmed</li><li>GitHub owner confirmed</li><li>Website maintainer confirmed</li><li>CMS/admin dashboard needed</li><li>Analytics required</li><li>Search Console required</li><li>Backup owner confirmed</li></ul>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><div class="section-no">13 / APPROVAL</div><h2>Launch decision</h2></div><div class="hint">Do not launch until every applicable item is confirmed.</div></div>
+    <ul class="checklist"><li>Desktop design approved</li><li>Mobile design approved</li><li>English content approved</li><li>Arabic content approved</li><li>Contact details verified</li><li>Services verified</li><li>Destination content verified</li><li>Airline wording approved</li><li>Images approved</li><li>Testimonials approved</li><li>Legal pages approved</li><li>Inquiry delivery tested</li><li>Domain and hosting confirmed</li><li>Launch date agreed</li></ul>
+    <div class="label">Five highest-priority changes</div>
+    <div class="priority"><b>1</b><span></span></div><div class="priority"><b>2</b><span></span></div><div class="priority"><b>3</b><span></span></div><div class="priority"><b>4</b><span></span></div><div class="priority"><b>5</b><span></span></div>
+    <div class="approval"><div><div class="label">Client name and signature</div><div class="signature"></div></div><div><div class="label">Approval date</div><div class="signature"></div></div></div>
+    <p class="small">Approval confirms the direction and information recorded in this document. Material changes requested afterward may affect scope, schedule and launch date.</p>
+  </section>
+
+  <footer><span>Moon Glow Travel Agency — Client Website Review</span><span>Confidential project document</span></footer>
+</body>
+</html>

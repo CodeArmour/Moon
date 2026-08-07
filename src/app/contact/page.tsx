@@ -1,10 +1,8 @@
 import { PageHero } from "@/components/PageHero";
-import {
-  WhatsappLogo,
-  Phone,
-  EnvelopeSimple,
-  MapPin,
-} from "@phosphor-icons/react/dist/ssr";
+import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr/WhatsappLogo";
+import { Phone } from "@phosphor-icons/react/dist/ssr/Phone";
+import { EnvelopeSimple } from "@phosphor-icons/react/dist/ssr/EnvelopeSimple";
+import { MapPin } from "@phosphor-icons/react/dist/ssr/MapPin";
 import { contact } from "@/data/site";
 import { ContactForm } from "@/components/ContactForm";
 export default function Page() {

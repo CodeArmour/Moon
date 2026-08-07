@@ -1,5 +1,6 @@
 import { PageHero } from "@/components/PageHero";
-import { Check, WarningCircle } from "@phosphor-icons/react/dist/ssr";
+import { Check } from "@phosphor-icons/react/dist/ssr/Check";
+import { WarningCircle } from "@phosphor-icons/react/dist/ssr/WarningCircle";
 export default function Page() {
   const support = [
     "Worldwide visa guidance",
